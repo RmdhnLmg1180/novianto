@@ -4573,6 +4573,15 @@
         </div>
       </div>
     </div>
+    <script>
+      canAutoplay.audio().then(({ result }) => {
+        if (result === true) {
+          // Can auto-play
+        } else {
+          // Can not auto-play
+        }
+      });
+    </script>
     <audio autoplay loop>
       <source src="Maher Zain - Barakallah.mp3" type="audio/mpeg" />
     </audio>
